@@ -1,0 +1,201 @@
+# Butterfly 主题配置 - CM风格
+
+# 菜单
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-user
+
+# 导航栏
+nav:
+  logo:
+  display_title: true
+  fixed: true
+
+# 代码块
+highlight_theme: mac dark
+highlight_copy: true
+highlight_lang: true
+
+# 社交链接
+social:
+  fab fa-telegram: https://t.me/ || Telegram
+  fab fa-github: https://github.com/ggjjc786-boop || Github
+
+# 头像
+avatar:
+  img: https://pic.imgdb.cn/item/65cdd4a69f345e8d03272b3e.webp
+  effect: false
+
+# 关闭顶部大图
+disable_top_img: true
+
+# 封面图
+cover:
+  index_enable: true
+  aside_enable: true
+  default_cover:
+    - https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkcsx9rmj31hc0u0qej.jpg
+
+# 深色背景
+background: "#1b1b1f"
+
+# 页脚
+footer_bg: false
+
+# 主题色
+theme_color:
+  enable: true
+  main: "#00c4b6"
+  paginator: "#00c4b6"
+  button_hover: "#ff7242"
+  text_selection: "#00c4b6"
+  link_color: "#00c4b6"
+  scrollbar_color: "#00c4b6"
+
+# 暗色模式
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
+# 首页文章
+index_post_content:
+  method: 2
+  length: 500
+
+# 页脚
+footer:
+  owner:
+    enable: true
+    since: 2026
+  copyright: false
+
+# 侧边栏
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  card_author:
+    enable: true
+    description: 集中精力，攻克难关
+    button:
+      enable: true
+      icon: fab fa-github
+      text: GitHub
+      link: https://github.com/ggjjc786-boop
+  card_announcement:
+    enable: false
+  card_recent_post:
+    enable: true
+    limit: 5
+  card_categories:
+    enable: false
+  card_tags:
+    enable: true
+    limit: 30
+    color: true
+  card_archives:
+    enable: true
+    limit: 6
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+
+# 右下角
+rightside_scroll_percent: true
+readmode: true
+darkmode_button: true
+
+# 图片灯箱
+lightbox: false
+
+# 复制
+copy:
+  enable: true
+  copyright:
+    enable: false
+
+# 美化
+beautify:
+  enable: true
+  field: post
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: '#00c4b6'
+
+# 懒加载
+lazyload:
+  enable: false
+  blur: false
+
+# 关闭加载动画
+preloader:
+  enable: false
+
+# 打字效果
+subtitle:
+  enable: true
+  effect: true
+  loop: true
+  sub:
+    - 干货满满 🎉
+    - 欢迎来到我的博客
+
+# pjax
+pjax:
+  enable: false
+
+# 弹窗
+snackbar:
+  enable: false
+  position: bottom-left
+  bg_light: '#00c4b6'
+  bg_dark: '#242629'
+
+# 文章
+post_meta:
+  page:
+    date_type: created
+    categories: true
+    tags: true
+  post:
+    date_type: both
+    categories: true
+    tags: true
+
+# 版权
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# 相关文章
+related_post:
+  enable: true
+  limit: 6
+
+# 目录
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  scroll_percent: true
+
+# 评论
+comments:
+  enable: false
+
+# 关闭特效
+canvas_ribbon:
+  enable: false
+
+# CDN配置 - 全部使用本地，不依赖外部CDN
+CDN:
+  internal_provider: local
+  third_party_provider: local
+  version: false
