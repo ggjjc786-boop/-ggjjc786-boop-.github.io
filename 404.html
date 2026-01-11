@@ -60,7 +60,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2026-01-11 14:38:10',
+  postUpdate: '2026-01-11 14:56:14',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -189,7 +189,72 @@
         }
       }
       detectApple()
-    })(window)</script><!-- hexo injector head_end start --><link rel="stylesheet" href="/css/custom.css"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div class="error" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">常用网站</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://bk.880333.xyz" title="我的博客"><img class="back-menu-item-icon" src="/favicon.ico" alt="我的博客"/><span class="back-menu-item-text">我的博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">推荐</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://wgjiasu.com/#/login?code=Gy83wIhl" title="机场推荐"><img class="back-menu-item-icon" src="/favicon.ico" alt="机场推荐"/><span class="back-menu-item-text">机场推荐</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">NPC的博客</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
+    })(window)</script><!-- hexo injector head_end start --><link rel="stylesheet" href="/css/custom.css"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"></head><body data-type="anzhiyu"><!-- hexo injector body_begin start -->
+<div id="loading-screen">
+  <div class="loading-avatar-wrapper">
+    <img class="loading-avatar" src="https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg" alt="avatar">
+    <div class="loading-status"></div>
+  </div>
+</div>
+<style>
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2d3436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+#loading-screen.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+.loading-avatar-wrapper {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.loading-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #636e72;
+  object-fit: cover;
+  animation: pulse 2s ease-in-out infinite;
+}
+.loading-status {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  background: #00b894;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  animation: statusPulse 1.5s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+@keyframes statusPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.8; }
+}
+</style>
+<script>
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    document.getElementById('loading-screen').classList.add('loaded');
+  }, 500);
+});
+</script>
+<!-- hexo injector body_begin end --><div id="web_bg"></div><div id="an_music_bg"></div><div class="error" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">常用网站</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://bk.880333.xyz" title="我的博客"><img class="back-menu-item-icon" src="/favicon.ico" alt="我的博客"/><span class="back-menu-item-text">我的博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">推荐</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://wgjiasu.com/#/login?code=Gy83wIhl" title="机场推荐"><img class="back-menu-item-icon" src="/favicon.ico" alt="机场推荐"/><span class="back-menu-item-text">机场推荐</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">NPC的博客</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
   "CONFIG": {
     "modules": "0124",
     "background": "2",
