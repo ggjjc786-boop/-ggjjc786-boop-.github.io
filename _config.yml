@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: My Blog
-subtitle: '记录生活与技术'
+title: NPC的博客
+subtitle: ''
 description: '一个简洁优雅的个人博客'
 keywords: blog
-author: ggjjc786
+author: NPC的博客
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://bk.880333.xyz
+url: https://www.xphdfs.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

@@ -12,8 +12,15 @@
     "version": "8.1.1"
   },
   "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.4.1",
+    "algoliasearch": "^5.46.2",
+    "anzhiyu-blog-static": "^1.0.4",
+    "anzhiyu-theme-static": "^1.1.10",
+    "colorthief": "^2.6.0",
+    "flickr-justified-gallery": "^2.2.0",
     "hexo": "^8.0.0",
     "hexo-admin": "^2.3.0",
+    "hexo-anzhiyu-music": "^1.0.2",
     "hexo-butterfly-extjs": "^1.5.4",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
@@ -27,6 +34,9 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-anzhiyu": "^1.7.0",
     "hexo-theme-butterfly": "^5.5.3",
-    "hexo-theme-landscape": "^1.0.0"
+    "hexo-theme-landscape": "^1.0.0",
+    "instantsearch.js": "^4.86.1",
+    "mathjax": "^4.1.0",
+    "pangu": "^7.2.0"
   }
 }

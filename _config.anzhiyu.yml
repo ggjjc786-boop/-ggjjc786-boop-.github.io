@@ -1,41 +1,28 @@
 menu:
-  # 文章:
-  #   隧道: /archives/ || anzhiyu-icon-box-archive
-  #   分类: /categories/ || anzhiyu-icon-shapes
-  #   标签: /tags/ || anzhiyu-icon-tags
-
-  # 友链:
-  #   友人帐: /link/ || anzhiyu-icon-link
-  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-  #   留言板: /comments/ || anzhiyu-icon-envelope
-
-  # 我的:
-  #   音乐馆: /music/ || anzhiyu-icon-music
-  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
-  #   相册集: /album/ || anzhiyu-icon-images
-  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
-
-  # 关于:
-  #   关于本人: /about/ || anzhiyu-icon-paper-plane
-  #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+  首页: / || anzhiyu-icon-home
+  文章:
+    归档: /archives/ || anzhiyu-icon-box-archive
+    分类: /categories/ || anzhiyu-icon-shapes
+    标签: /tags/ || anzhiyu-icon-tags
+  友链: /link/ || anzhiyu-icon-link
+  关于: /about/ || anzhiyu-icon-paper-plane
 
 # nav相关配置
 nav:
-  enable: false
+  enable: true
   travelling: false
-  clock: false
+  clock: true
   menu:
-    - title: 网页
+    - title: 常用网站
       item:
-        - name: 博客
-          link: https://hexo.anheyu.com/
-          icon: /img/favicon.ico
-    - title: 项目
+        - name: 我的博客
+          link: https://bk.880333.xyz
+          icon: /favicon.ico
+    - title: 推荐
       item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+        - name: 机场推荐
+          link: https://wgjiasu.com/#/login?code=Gy83wIhl
+          icon: /favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -66,23 +53,15 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  # Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
-  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+  Github: https://github.com || anzhiyu-icon-github
 
 # 作者卡片 状态
 author_status:
-  enable: false
+  enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
-    # - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
-    # - 🏠 智能家居小能手
-    # - 🔨 设计开发一条龙
-    # - 🤝 专修交互与设计
-    # - 🏃 脚踏实地行动派
-    # - 🧱 团队小组发动机
-    # - 💢 壮汉人狠话不多
+    - 不要太劳累了，早睡更健康
 
 # search (搜索)
 # --------------------------------------
@@ -139,7 +118,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://pic.imgdb.cn/item/65cdd4a69f345e8d03272b3e.webp
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -161,7 +140,7 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    # - /img/default_cover.jpg
+    - /img/default_cover.jpg
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
@@ -801,14 +780,14 @@ aside:
     category: true
   card_author:
     enable: true
-    description: # <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
+    description: 不要太劳累了，早睡更健康
     name_link: /
 
   card_announcement:
     enable: false
     content: 欢迎来看我的博客鸭~
   card_weixin:
-    enable: true
+    enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
     backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
   card_recent_post:
@@ -857,7 +836,7 @@ runtimeshow:
 
 # Console - Newest Comments
 newest_comments:
-  enable: true
+  enable: false
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
@@ -912,12 +891,12 @@ centerConsole:
 darkmode:
   enable: true
   # Toggle Button to switch dark/light mode
-  button: true
+  button: false
   # Switch dark/light mode automatically (自动切换 dark mode和 light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: 1
+  autoChangeMode: false
   start: # 8
   end: # 22
 
@@ -984,7 +963,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: true
+  enable: false
   per_page: true
 
 # Snackbar (Toast Notification 弹窗)
@@ -992,7 +971,7 @@ aplayerInject:
 # position 弹窗位置
 # 可选 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: top-center
   bg_light: "#425AEF"
   bg_dark: "#1f1f1f"
@@ -1041,9 +1020,9 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 欢迎来到我的博客
-  subTitle: 记录生活与技术
-  siteText: bk.880333.xyz
+  title: 鲜艳的红领巾
+  subTitle: 飘扬在前胸～
+  siteText: www.xphdfs.me
   category:
     - name: 科学上网
       path: /tags/
@@ -1051,7 +1030,7 @@ home_top:
       class: blue
       icon: anzhiyu-icon-dove
     - name: 机场推荐
-      path: /archives/
+      path: https://wgjiasu.com/#/login?code=Gy83wIhl
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
@@ -1062,19 +1041,19 @@ home_top:
       icon: anzhiyu-icon-book
   default_descr: 干货满满~
   swiper:
-    enable: false
-    swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css
-    swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js
+    enable: true
+    swiper_css: https://unpkg.com/swiper@8/swiper-bundle.min.css
+    swiper_js: https://unpkg.com/swiper@8/swiper-bundle.min.js
   banner:
-    tips: 
-    title: 
-    image: 
-    link:
+    tips: Youtube频道
+    title: CM喂饭 干货满满
+    image: https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png
+    link: https://space.bilibili.com/
 
 # 朋友圈配置
 friends_vue:
   enable: false
-  vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.1/friends/index.4f887d95.js
+  vue_js: https://jsd.cdn.zzko.cn/npm/anzhiyu-theme-static@1.1.1/friends/index.4f887d95.js
   apiurl: # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
   top_background:
@@ -1118,7 +1097,7 @@ comment_barrage_config:
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
 nav_music:
-  enable: true
+  enable: false
   console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 8152976493
   server: netease
@@ -1174,7 +1153,7 @@ greetingBox:
 
 # 文章顶部ai摘要
 post_head_ai_description:
-  enable: true
+  enable: false
   gptName: AnZhiYu
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
@@ -1215,7 +1194,7 @@ rightClickMenu:
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
+  enable: false
   img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png
 
 # 动效
@@ -1247,7 +1226,7 @@ CDN:
 
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: elemecdn/jsdelivr/unpkg/cdnjs/onmicrosoft/cbd/anheyu/custom
-  third_party_provider: elemecdn
+  third_party_provider: unpkg
 
   # Add version number to CDN, true or false
   version: true
